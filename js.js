@@ -242,19 +242,19 @@ document.addEventListener("DOMContentLoaded", function () {
         // 4. Validate the extracted name
         if (!userName || userName.trim() === "") {
           alert("Please log in first to complete your order!");
-          window.location.href = "/websit/connect.html";
+          window.location.href = "connect.html";
         } else {
           // Display a clean, professional success message
           alert(`Thank you ${userName}! Your order has been placed successfully.`);
           localStorage.removeItem("shoppingCart"); // Clear cart
-          window.location.href = "/websit/index.html"; // Redirect to home
+          window.location.href = "index.html"; // Redirect to home
         }
 
       } catch (error) {
         // Fallback if the data in storage is just a plain string, not JSON
         alert(`Thank you ${rawData}! Your order has been placed successfully.`);
         localStorage.removeItem("shoppingCart");
-        window.location.href = "/websit/Cart.html";
+        window.location.href = "Cart.html";
       }
     });
   }
