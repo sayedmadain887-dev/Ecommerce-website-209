@@ -197,7 +197,8 @@ button.white {
 #featur {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  gap: 15px;
 }
 
 #featur .fe-box {
@@ -233,6 +234,7 @@ button.white {
    ========================================================================== */
 #product1 {
   text-align: center;
+  
 }
 
 #product1 .pro-container {
@@ -343,7 +345,8 @@ button.white {
 #sm-banner {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  gap: 8px;
 }
 
 #sm-banner .banner-box {
