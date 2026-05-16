@@ -222,7 +222,7 @@ document.addEventListener("DOMContentLoaded", function () {
       // Check if data doesn't exist
       if (!rawData) {
         alert("Please log in first to complete your order!");
-        window.location.href = "login.html"; 
+        window.location.href = "connect.html"; 
         return;
       }
 
